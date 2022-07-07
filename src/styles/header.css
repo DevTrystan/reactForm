@@ -1,0 +1,59 @@
+header{
+    background-color: cornflowerblue;
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    padding: 2vh;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+}
+nav ul li{
+    list-style-type: none;
+    background-color: rgb(53, 201, 206);
+    padding: 1vh;
+    border-radius: 1vh;
+}
+nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+
+
+
+h1{
+    margin: 0;
+    border: 1px solid black;
+    width: 15vh;
+    text-align: center;
+    padding: 1vh;
+}
+
+#corp #forms{
+    display: flex;
+    justify-content: center;
+    
+
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.error{
+    color: red;
+}
+
+
+
